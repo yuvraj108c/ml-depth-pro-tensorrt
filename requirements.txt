@@ -1,0 +1,5 @@
+tensorrt
+polygraphy
+cuda-python
+torch
+torchvision
