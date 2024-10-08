@@ -3,3 +3,4 @@ polygraphy
 cuda-python
 torch
 torchvision
+onnx
