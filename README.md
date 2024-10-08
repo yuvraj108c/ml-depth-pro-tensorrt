@@ -6,6 +6,11 @@
 [![cuda](https://img.shields.io/badge/cuda-12.4-green)](https://developer.nvidia.com/cuda-downloads)
 [![trt](https://img.shields.io/badge/TRT-10.5.0-green)](https://developer.nvidia.com/tensorrt)
 
+
+<img height="200" src="https://github.com/user-attachments/assets/1c0cb5d7-3174-4f6c-a813-1859991c9a9b" />
+<br />
+<br />
+
 </div>
 
 This project provides a [TensorRT](https://github.com/NVIDIA/TensorRT) implementation of [ml-depth-pro](https://github.com/apple/ml-depth-pro) by Apple, enabling up to 8x faster inference speeds.
