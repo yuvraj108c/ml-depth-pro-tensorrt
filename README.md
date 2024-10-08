@@ -8,7 +8,7 @@
 
 </div>
 
-This project provides a [TensorRT](https://github.com/NVIDIA/TensorRT) implementation of [ml-depth-pro](https://github.com/apple/ml-depth-pro) by Apple, enabling 5-6x faster inference speeds.
+This project provides a [TensorRT](https://github.com/NVIDIA/TensorRT) implementation of [ml-depth-pro](https://github.com/apple/ml-depth-pro) by Apple, enabling up to 8x faster inference speeds.
 
 If you like the project, please give me a star! ⭐
 
