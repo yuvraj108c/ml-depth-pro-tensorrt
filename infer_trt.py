@@ -57,12 +57,12 @@ if resize:
 print(f"Warming up {warmup} times")
 for i in range(warmup):
     s = time.time()
-    prediction= engine.infer({"input": image_t}, cuda.Stream(), use_cuda_graph=True)
+    prediction= engine.infer({"input": image_t}, cuda.Stream(), use_cuda_graph=False)
     e = time.time()
     print("Inference time: ", (e-s)*1000, "ms")
 
 s = time.time()
-prediction= engine.infer({"input": image_t}, cuda.Stream(), use_cuda_graph=True)
+prediction= engine.infer({"input": image_t}, cuda.Stream(), use_cuda_graph=False)
 e = time.time()
 print("Final inference time: ", (e-s)*1000, "ms")
 
