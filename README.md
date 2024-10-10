@@ -65,3 +65,7 @@ python infer_trt.py
 ## 🤖 Environment tested
 
 Ubuntu 22.04 LTS, Cuda 12.4, Tensorrt 10.5.0, Python 3.10, H100 GPU
+
+👏 Credits
+- https://github.com/apple/ml-depth-pro
+- https://github.com/spacepxl/ComfyUI-Depth-Pro
