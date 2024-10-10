@@ -41,6 +41,8 @@ pip install -r requirements.txt
 ```
 
 ## 🛠️ Building onnx 
+You can download the prebuilt onnx model from [here](https://huggingface.co/yuvraj108c/ml-depth-pro-onnx/blob/main/depth_pro.onnx) or build it yourself by running: 
+
 ```bash
 python export_onnx.py 
 ```
