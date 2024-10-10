@@ -57,7 +57,8 @@ python infer_trt.py
 
 ## 📓 Notes
 
-The model currently supports images with a fixed resolution of 1536 x 1536  
+- The model currently supports images with a fixed resolution of 1536 x 1536
+- There is a noticeable loss of quality even at FP32, compared to the native implementation
 
 ## 🤖 Environment tested
 
