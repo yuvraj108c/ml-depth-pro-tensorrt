@@ -13,7 +13,7 @@
 
 </div>
 
-This project provides an experimental [TensorRT](https://github.com/NVIDIA/TensorRT) implementation of [ml-depth-pro](https://github.com/apple/ml-depth-pro) by Apple, enabling up to 260x faster inference speeds, at the cost of quality. 
+This project provides an experimental [TensorRT](https://github.com/NVIDIA/TensorRT) implementation of [ml-depth-pro](https://github.com/apple/ml-depth-pro) by Apple, enabling ultra fast inference speeds (1.8ms), at the cost of quality. 
 Feel free to contribute to improve the quality of the result.
 
 If you like the project, please give me a star! ⭐
