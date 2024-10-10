@@ -27,7 +27,7 @@ _Note: Inference was done in FP16, with a warm-up period of 5 frames. The report
 | :----: | :-: | :-: |
 |  H100  | 1536 x 1536  | 1.8 |
 
-## 🚀 Installation
+## 🚀 Installation (onnx export + tensorrt)
 
 ```bash
 git clone https://github.com/apple/ml-depth-pro
@@ -37,6 +37,12 @@ bash get_pretrained_models.sh
 
 git clone https://github.com/yuvraj108c/ml-depth-pro-tensorrt
 mv ./ml-depth-pro-tensorrt/* . && rm -r ./ml-depth-pro-tensorrt
+pip install -r requirements.txt
+```
+## 🚀 Installation (prebuilt onnx model + tensorrt)
+
+```bash
+git clone https://github.com/yuvraj108c/ml-depth-pro-tensorrt
 pip install -r requirements.txt
 ```
 
